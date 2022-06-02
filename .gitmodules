@@ -1,0 +1,6 @@
+[submodule "src/ros2-lgsvl-bridge"]
+	path = src/ros2-lgsvl-bridge
+	url = https://github.com/lgsvl/ros2-lgsvl-bridge.git
+[submodule "src/lgsvl-test-infra"]
+	path = src/lgsvl-test-infra
+	url = https://github.com/sisaha9/lgsvl-test-infra.git
