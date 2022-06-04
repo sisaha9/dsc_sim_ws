@@ -22,7 +22,8 @@ def generate_launch_description():
             {
              "dt": launch.substitutions.LaunchConfiguration("dt"),
              "config_file_path": launch.substitutions.LaunchConfiguration("config_file_path"),
-             "target_frame":launch.substitutions.LaunchConfiguration("target_frame")
+             "target_frame":launch.substitutions.LaunchConfiguration("target_frame"),
+             "use_sim_time": True
             },
             
         ],
