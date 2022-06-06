@@ -30,7 +30,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'lgsvl_interface_node = lgsvl_interface.lgsvl_interface_node:main'
+            'lgsvl_interface_node = lgsvl_interface.lgsvl_interface_node:main',
+            'odom_transform_node = lgsvl_interface.odom_transform:main'
         ],
     },
 )
