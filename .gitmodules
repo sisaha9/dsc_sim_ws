@@ -4,3 +4,6 @@
 [submodule "src/lgsvl-test-infra"]
 	path = src/lgsvl-test-infra
 	url = https://github.com/sisaha9/lgsvl-test-infra.git
+[submodule "src/geometry2"]
+	path = src/geometry2
+	url = https://github.com/dawsonc/geometry2.git
